@@ -325,8 +325,8 @@ footer h4{
         --big-font : 4rem;
         --med-font : 2.4rem;
         --text-font : 1rem;
-        --logo-font : 1.6rem;
-        --navafont : 1.4rem;
+        --logo-font : 1.4rem;
+        --navafont : 1.2rem;
     }
 
 .home-section{
@@ -399,6 +399,13 @@ footer h4{
 
 @media(max-width:800px){
 
+    :root{
+        --big-font : 3.5rem;
+        --med-font : 2.1rem;
+        --text-font : .8rem;
+        --logo-font : 1.2rem;
+        --navafont : 1rem;
+    }
     header{
         margin: 0;
     }
