@@ -62,9 +62,6 @@ header{
     color: var(--main-color);
     border-bottom: 1px solid var(--main-color);
 }
-.menu{
-    visibility: hidden;
-}
 .home-section{
     display: flex;
     align-items: center;
@@ -407,41 +404,6 @@ footer h4{
     }
     section{
         padding: 3rem 2rem;
-    }
-    
-
-    .navbar{
-        visibility: hidden;
-    }
-    .navbar-open{
-        display: flex;
-        flex-direction: column;
-        visibility: visible !important;
-        position: absolute;
-        top: 80px;
-        margin-left: 200px;
-        margin-top: 20px;
-        z-index: 1000;
-        background: var(--main-color);
-        width: 50%;
-        align-items: center;
-        justify-content: center;
-
-    }
-    .navbar a{
-        color: #fff;
-        line-height: 50px;
-    }
-    .navbar a:hover{
-        color: #000000;
-        line-height: 50px;
-        border-bottom: 1px solid #000000;
-    }
-
-
-
-    .menu{
-        visibility: visible;
     }
     .about-content-2{
         display: flex;
